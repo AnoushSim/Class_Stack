@@ -42,6 +42,6 @@ int Stack::pop()
 }
 void Stack::showStack() const
 {
-	for(int ix = 0; ix < this->msize; ++ix)
+	for(int ix = 0; ix < this->mtop; ++ix)
 		std::cout << this->mstack[ix] << std::endl;
 }
