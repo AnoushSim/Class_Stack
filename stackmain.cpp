@@ -1,4 +1,5 @@
 #include <iostream>
+#include <StackClass.h>
 int main() {
 	Stack * p = new Stack;
 	p ->push(1);
