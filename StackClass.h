@@ -12,7 +12,7 @@ public:
     Stack (const int sz=100);
    ~Stack ();
   void push (int element);
-  int push ();
+  int pop ();
   void showStack () const;
 };
 #endif
